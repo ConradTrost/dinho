@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../assets/fonts/baskvill-webfont.woff') format('woff'),
+         url('../assets//fonts//baskvill-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    color: #fff;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+    :root {
+        font-size: 18px;
+    }
+}
+
+body {
+    background-color: #000;
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Baskerville';
+}
+
+.header-wrap {
+    max-width: 1600px;
+    margin: auto;
+}
+
+header h2 {
+    font-size: 5rem;
+}
+
+header a {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
